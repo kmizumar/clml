@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (defparameter *sample* '(10 194 8.6d0 69 5 10 "" nil "NA" 3 4.5d0 6 5 5 5))
 (defparameter *sample-1* `(10d0 3d0 194d0 8.6d0 69d0 5d0 10d0 3d0 3d0 3d0

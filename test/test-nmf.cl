@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-nmf
     (let (matrix w h sports-corpus politics-corpus)

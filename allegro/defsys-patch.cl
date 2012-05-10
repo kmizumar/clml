@@ -1,5 +1,5 @@
 ;;;
-(in-package "DEFSYS")
+(in-package :defsys)
 
 (defmethod compile-module ((module lisp-module) &rest keys)
   (let* ((p (get-package module))

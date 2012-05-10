@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (defun rule-equal (expected-rule rule)
   (loop for r1 across expected-rule

@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (defun assert-dimensions-equal (expected target &key (name-test #'eq))
   (let ((e-names (map 'list #'dimension-name expected))

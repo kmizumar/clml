@@ -1448,7 +1448,7 @@
     (:mnd (let ((density (multivariate-normal-density mu sigma target)))
             (- (log 
                 (cond ((zerop density) least-positive-double-float)
-                      ((= #.*INFINITY-DOUBLE* density) most-positive-double-float)
+                      ((= #.*infinity-double* density) most-positive-double-float)
                       (t density))))))))
 (defun local-anomaly-score (target mu sigma &key (type :mahalanobis)) ; :mahalanobis | :mnd
   (let* ((dims (array-dimensions sigma))
@@ -1461,7 +1461,7 @@
       (:mnd (let ((density (multivariate-normal-density mu-vec sigma target-vec)))
               (- (log 
                   (cond ((zerop density) least-positive-double-float)
-                        ((= #.*INFINITY-DOUBLE* density) most-positive-double-float)
+                        ((= #.*infinity-double* density) most-positive-double-float)
                         (t density)))))))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

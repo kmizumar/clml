@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-sample-expl-smthing
     (let (ukgas model pred)
@@ -15,7 +15,7 @@
                        (exp-type exponential-smoothing::exp-type)
                        (3-params exponential-smoothing::3-params)) model
         (assert-eq :multiplicative seasonal)
-        (assert-eq 'EXPONENTIAL-SMOOTHING::MSE (first err-info))
+        (assert-eq 'exponential-smoothing::mse (first err-info))
         (assert-equality #'epsilon> 1131.3876624098614d0 (second err-info))
         (assert-eq :triple exp-type)
         (assert-true (set-equal '(0.1d0 0.2d0 0.7999999999999999d0) 3-params :test #'epsilon>)))

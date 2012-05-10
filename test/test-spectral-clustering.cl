@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 #|
 TEST-SPECTRAL-CLUSTERING(28): (run-tests)

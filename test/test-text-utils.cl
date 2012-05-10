@@ -1,6 +1,6 @@
 ;;;
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-sample-text-utils
     (let ((data (read-data-from-file "sample/equivalence-class.csv" :type :csv :csv-type-spec

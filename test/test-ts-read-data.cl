@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-sample-ts-read-data
     (let (d msi-access)

@@ -1,6 +1,6 @@
 ;;;
 
-(in-package "TEST")
+(in-package :test)
 
 (defun classifier-test (type)
   (format t "classifier test [type : ~a]~%" type)

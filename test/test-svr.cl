@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-svr
     (let (svm-bc-train svm-bc-test training-vector test-vector linear-svr rbf-kernel rbf-svr poly-svr)

@@ -8,9 +8,9 @@ CL-USER> (best-double-exp-parameters
 1/100
 ||#
 
-;;; #+asdf
-;;; (eval-when (:load-toplevel :compile-toplevel :execute)
-;;;  (asdf:operate 'asdf:load-op 'iterate))
+#+asdf
+(eval-when (:load-toplevel :compile-toplevel :execute)
+  (asdf:operate 'asdf:load-op 'iterate))
 
 (defpackage :exponential-smoothing
   (:use :cl :iter :ts-util :ts-stat

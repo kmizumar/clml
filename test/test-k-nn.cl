@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-sample-k-nn
     (let (data-for-learn estimator data-for-estimate result

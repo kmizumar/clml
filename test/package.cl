@@ -1,14 +1,14 @@
 ;;;
 
-(defpackage "TEST"
+(defpackage :test
   (:use
-   "CL" "LISP-UNIT" "VARS" "READ-DATA" "STATISTICS" "ASSOC"
-   "CLUSTER-VALIDATION" "DECISION-TREE" "TS-READ-DATA"
-   "TS-AUTOREGRESSION" "TS-UTIL" "TS-STAT" "TS-STATE-SPACE"
-   "EXPL-SMTHING" "HC" "K-MEANS" "K-NN" "LINEAR-REGRESSION"
-   "MISSING-VAL" "NMF" "OPTICS" "PCA" "SOM" "SPECTRAL-CLUSTERING"
-   "SVM.MU" "SVM.SMO" "SVM.WSS3" "SVR" "ONE-CLASS-SVM" "MATRIX" "RANDOM-FOREST" "UTIL" 
-   "HDP-LDA" "DPM" "TEXT-UTILITIES")
-  (:import-from "SPECTRAL-CLUSTERING" "*SAMPLE-W*")
-  (:import-from "K-MEANS" "MANHATTAN-DISTANCE")
-  (:import-from "HC" "NUMERIC-MATRIX" "PICK-UP-COLUMN" "PICK-UP-ROW"))
+   :cl :lisp-unit :vars :read-data :statistics :assoc
+   :cluster-validation :decision-tree :ts-read-data
+   :ts-autoregression :ts-util :ts-stat :ts-state-space
+   :expl-smthing :hc :k-means :k-nn :linear-regression
+   :missing-val :nmf :optics :pca :som :spectral-clustering
+   :svm.mu :svm.smo :svm.wss3 :svr :one-class-svm :matrix :random-forest :util 
+   :hdp-lda :dpm :text-utilities)
+  (:import-from :spectral-clustering :*sample-w*)
+  (:import-from :k-means :manhattan-distance)
+  (:import-from :hc :numeric-matrix :pick-up-column :pick-up-row))

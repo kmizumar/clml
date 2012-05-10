@@ -1,5 +1,5 @@
 		
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-hc
     (let (seiseki d-matrix cophenetic-matrix merge-matrix)

@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test svm.smo.kernels
   (assert-true (setf z-1 (make-array 4 :element-type 'double-float

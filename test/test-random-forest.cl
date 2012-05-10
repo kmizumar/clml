@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-random-forest
     (let (syobu bc-train bc-test cars forest query)

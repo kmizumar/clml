@@ -1,6 +1,6 @@
 ;;; -*- Mode: Lisp -*-
 
-(in-package "CL-USER")
+(in-package :cl-user)
 
 (eval-when (:compile-toplevel :load-toplevel :execute)
   #+ignore                              ; don't use asdf in this project

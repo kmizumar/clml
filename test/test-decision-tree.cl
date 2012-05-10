@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-decision-tree
     (let (syobu bc-train bc-test cars tree query)

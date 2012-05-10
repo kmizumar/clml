@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-sample-hdp-lda
     (let ((dataset (pick-and-specialize-data

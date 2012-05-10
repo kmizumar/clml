@@ -10,8 +10,8 @@
 (defpackage :spectral-clustering
     (:use :cl :hjs.util.matrix :hjs.util.meta)
   (:export #:spectral-clustering-mcut)
-  (:import-from #+allegro "EXCL" #+sbcl "SB-INT" #+lispworks "LISPWORKS"
-                "FIXNUMP"))
+  (:import-from #+allegro :excl #+sbcl :sb-int #+lispworks :lispworks
+                :fixnump))
 
 
 (in-package :spectral-clustering)

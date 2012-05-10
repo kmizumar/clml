@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-sample-pca
     (let (dataset proj-vecs pca-result pca-model for-learn for-estimate)

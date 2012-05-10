@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 #|cf. expected results by R
 

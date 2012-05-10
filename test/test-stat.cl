@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-sample-stat
     (let ((height '(148 160 159 153 151 140 156 137 149 160 151 157 157 144))

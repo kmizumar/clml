@@ -136,12 +136,12 @@
           ret))))
 
 (defun kwd (name)
-  (values (intern (string-upcase name) :keyword)))
+  (values (intern (symbol-name name) :keyword)))
 
 (defun mkstr (&rest args)
   (with-output-to-string (s)
     (dolist (x args)
-      (format s "~@:(~A~)" x))))
+      (format s "~a" (symbol-name x)))))
 
 (defun symbolicate (&rest syms)
   "Concatenate all symbol names into one big symbol"

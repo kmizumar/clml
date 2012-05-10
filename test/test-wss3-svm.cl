@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test wss3.kernels
     (let (z-1 z-2 rbf-kernel poly-kernel)

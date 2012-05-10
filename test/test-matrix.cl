@@ -1,4 +1,4 @@
-(in-package "TEST")
+(in-package :test)
 
 (defvar eyes)
 (defvar vecs)

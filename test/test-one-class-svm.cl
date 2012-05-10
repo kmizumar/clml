@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (define-test test-one-class-svm
     (let (svm-bc-train data-vector one-class-svm)

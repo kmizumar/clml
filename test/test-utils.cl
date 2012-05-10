@@ -1,5 +1,5 @@
 
-(in-package "TEST")
+(in-package :test)
 
 (defun epsilon> (value1 value2 &optional (epsilon *epsilon*))
   (assert (and (numberp value1) (numberp value2)))
